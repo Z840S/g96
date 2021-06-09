@@ -1,0 +1,50 @@
+.main{
+    display: flex;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+.col{
+    font-weight: 900;
+    opacity: 0.5;
+}
+.c{
+    color: blue;
+}
+.o{
+    position: relative;
+    right: 13px;
+    color: green;
+    z-index: 1;
+}
+.l{
+    position: relative;
+    right:20px;
+    color: yellow;
+}
+.oo{
+    position: relative;
+    right: 33px;
+    color: violet;
+    z-index: 1;
+}
+.r{
+    position: relative;
+    right: 40px;
+    color: tomato;
+}
+.f{
+    position: relative;
+    right: 48px;
+    color: violet;
+}
+.u{
+    position: relative;
+    right: 55px;
+    color: rgb(126, 71, 255);
+}
+.ll{
+    position: relative;
+    right: 63px;
+    color: tomato;
+}

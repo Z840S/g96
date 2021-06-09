@@ -1,0 +1,27 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: 500px;
+    border: 1px solid  blue;
+}
+
+.kv{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: all 2s; 
+}
+.kv:hover{
+    background-color: blue;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    transform: rotate(360deg);
+    background:linear-gradient(to right bottom, red,blue,yellow);
+
+}
+.main{
+    border-radius: 900px;
+}

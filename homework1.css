@@ -1,0 +1,42 @@
+.parint{
+    display: flex;
+    width: 1225px;
+    height: 800px;
+    border: 1px solid red;
+    margin: 20px auto;
+}
+.child1{
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+    border: 1px solid blue;
+    margin-right: 25px;
+    background-color:rgba(128, 128, 128, 0.151);
+    
+    
+
+}
+.child2{
+    /* width: 0; */
+    /* height: 0; */
+    display: flex;
+    flex: 1;
+    border: 1px solid blue;
+    background-color: rgba(128, 128, 128, 0.192);
+   
+}
+
+select{
+    
+    background-color: darkorchid;
+}
+i{
+    background-color: rgba(87, 255, 20, 0.582);
+}
+input{
+
+    
+    font-size: 14px;
+    background-color: deepskyblue;
+}

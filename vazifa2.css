@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+   padding: 0;
+    color: white;
+}
+
+.main{
+    margin: 50px auto;
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    background-color:#12171de7;
+    border: darkcyan;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 500px;
+   
+}
+.top{
+    margin-top: 30px;
+}
+.dard{
+    padding: 10px;
+    margin-top: 50px;
+}
+.gap{
+    margin-top: 75px;
+}
+.dard:hover{
+    border-left: 4px solid aqua;
+}
+.shart{
+    opacity: 0.5;
+}
+
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 500px;
+}
+
+
+
+span{
+    color: rgb(87, 86, 86);
+    animation: tezlik 0.9s infinite alternate linear;
+}
+@keyframes tezlik {
+    to{
+        color: white;
+    }
+}
+
+.test1{
+    animation-delay: 0.1s;
+}
+.test2{
+    animation-delay: 0.2s;
+}
+.test3{
+    animation-delay: 0.3s;
+}
+.test4{
+    animation-delay: 0.4s;
+}
+.test5{
+    animation-delay: 0.5s;
+}
+.test6{
+    animation-delay: 0.6s;
+}
+.test7{
+    animation-delay: 0.7s;
+}
+.test8{
+    animation-delay: 0.8s;
+}
+.test9{
+    animation-delay: 0.9s;
+}
+
+
+
+.sport{
+    display: flex;
+}
+.elem1{
+    margin-left: 5px;
+    margin-bottom: 3px;
+    width: 5px;
+    height: 2px;
+    background-color: royalblue;
+    border-radius: 20px;
+    animation: elem1 0.6s infinite alternate linear;
+
+}
+
+@keyframes elem1{
+   to{
+       padding-right: 10px;
+   }
+}
+.elem2{
+    margin-left: 5px;
+    margin-bottom: 3px;
+    width: 5px;
+    height: 2px;
+    background-color: royalblue;
+    border-radius: 20px;
+    animation: elem2 0.7s infinite alternate linear;
+
+}
+
+@keyframes elem2{
+   to{
+       padding-right: 10px;
+   }
+}
+.elem3{
+    margin-left: 5px;
+    margin-bottom: 3px;
+    width: 5px;
+    height: 2px;
+    background-color: royalblue;
+    border-radius: 20px;
+    animation: elem3 0.8s infinite alternate linear;
+
+}
+
+@keyframes elem3{
+   to{
+       padding-right: 10px;
+   }
+}
+
+
+
+
+
+.asosiy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height: 100%;
+    position: relative;
+}
+
+
+@keyframes asosiy {
+        to{
+         transform: rotate(360deg);
+
+        }
+    }
+    .circle2{
+        border: 3px solid white;
+        height: 210px;
+        width: 210px;
+        border-radius: 50%;
+        position: absolute;
+    }
+
+    .circle3{
+        border: 3px double  royalblue;
+        width: 230px;
+        height: 230px;
+        border-radius: 50%;
+        position: absolute;
+        animation: circle3 20s reverse infinite linear;
+    }
+    @keyframes circle3 {
+        from{
+         transform: rotate(0deg);
+        }
+        to{
+         transform: rotate(360deg);
+
+        }
+    }
+    .circle4{
+        border: 5px dashed  rgb(6, 56, 85);
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        position: absolute;
+        animation: circle4 alternate-reverse 20s  infinite linear;
+}
+    @keyframes circle4 {
+        from{
+         transform: rotate(0deg);
+        }
+        to{
+         transform: rotate(360deg);
+
+    }
+}
+.circle5{
+    opacity: 0.2;
+    border: 2px dotted  royalblue;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    position: absolute;
+    animation: circle5 50s reverse infinite linear;
+}
+@keyframes circle5 {
+    from{
+     transform: rotate(0deg);
+    }
+    to{
+     transform: rotate(360deg);
+
+}
+}
+.circle1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px dashed rgb(24, 52, 129);
+animation: circle1 20s reverse infinite linear;
+}
+@keyframes circle1{
+    to{
+        transform: rotate(360deg);
+    }
+}

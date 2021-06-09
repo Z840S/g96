@@ -1,0 +1,7 @@
+.karobka{
+    margin: 0 auto;
+    border: 1px solid red;
+    width: 800px;
+    height: 400px;
+    background: linear-gradient(  to left top , green,red,yellow );
+}
